@@ -352,7 +352,7 @@ p {
 	position: relative;
 	width: 240px;
 	height: 200px;
-	/*float: left;*/
+	float: left;
 	margin: 10px 20px 10px 0;
 }
 
@@ -371,7 +371,69 @@ p {
 footer{
 	text-align: center;
 }
+}
 
 
+@media screen and (max-width: 640px) {
+
+	#logo {
+		float: none;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	header nav {
+		width:100%;
+		text-align: center;
+		margin: 0 20px;
+		padding: 0 50px; 
+		}
+
+	
+
+	#profilePhoto {
+		float: none;
+		margin: 0 20px;
+		width: 840px;
+		height:850px;
+		
+	}
+
+	header {
+		position: static;
+	}
+
+	.connect {
+		margin: 20px 20px 100px 20px;
+		width:100%;
+
+	}
+
+	#port1, #port2, #port3, #port4, #port5 {
+		float: none;
+		width:550px;
+		height: 200px;
+		margin: 20px;
+		}
+
+	#myText {
+		width:550px;
+	}
+
+	.main {
+		width: 100%;
+		margin: 20px;
+		}
+	form {
+		margin-right: 20px;
+	}
+
+	footer {
+		text-align: center;
+	}
 
 }
+
+
