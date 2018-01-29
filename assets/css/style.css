@@ -130,7 +130,7 @@ footer {
 	text-align: center;
 	line-height: normal;
 }
-	
+
 .icon {
 	width: 60px;
 	height: 60px;
@@ -161,7 +161,7 @@ footer {
 	float: left;
 	margin: 20px 20px 20px 0;
 }
-	
+
 #port4 {
 	position: relative;
 	width: 250px;
@@ -177,7 +177,7 @@ footer {
 	float: left;
 	margin: 20px 20px 20px 0;
 }
-	
+
 img {
 	width: 280px;
 	height: 200px;
@@ -233,14 +233,14 @@ textarea {
 <!-- Max width 980 -->
 */
 @media screen and (max-width: 980px) {
-   .main {
-        margin-left: 130px;
-        width: 390px;
-    }
+	.main {
+		margin-left: 130px;
+		width: 390px;
+	}
 
-    .connect {
-    	margin-right: 130px;
-    }
+	.connect {
+		margin-right: 130px;
+	}
 
 	p {
 		line-height: 220%;
@@ -261,11 +261,11 @@ textarea {
 
 	#port1, #port2, #port3, #port4, #port5 {
 		float:none;
-		}
+	}
 
-input {
-	width: 100%;
-}	
+	input {
+		width: 100%;
+	}	
 }
 
 /*<!--  Media Queries-->
@@ -275,102 +275,106 @@ input {
 
 
 @media screen and (max-width: 768px) {
-   
-.main {
-	 width: 650px;
-	 margin-left: 70px;
-}
+	
+	.main {
+		width: 650px;
+		margin-left: 70px;
+	}
 
-#profilePhoto {
+	.wrapper {
+		width: 760px;
+	}
+
+	#profilePhoto {
 		width: 330px;
 		height: 350px;
 	}
 
 
-.connect {
-	margin-top: 15px;
-	margin-left: 70px;
-	float: left;
-	width: 650px;
-}
+	.connect {
+		margin-top: 15px;
+		margin-left: 70px;
+		float: left;
+		width: 650px;
+	}
 
-#logo {
-	margin-left: 70px;
-}
+	#logo {
+		margin-left: 70px;
+	}
 
-nav {
-	margin-right: 250px;
-}
+	nav {
+		margin-right: 250px;
+	}
 
-nav a {
-	padding: 0 10px 0 10px;
-	margin: 0;
+	nav a {
+		padding: 0 10px 0 10px;
+		margin: 0;
 
-}
+	}
 
-h3 {
-	text-align: left;
-}
+	h3 {
+		text-align: left;
+	}
 
-p {
-	line-height: 250%;
-}
+	p {
+		line-height: 250%;
+	}
 
-#port1{
-	position: relative;
-	width: 240px;
-	height: 200px;
-	float: left;
-	margin: 10px 20px 20px 0;
-}
+	#port1{
+		position: relative;
+		width: 240px;
+		height: 200px;
+		float: left;
+		margin: 10px 20px 20px 0;
+	}
 
-#port2{
-	position: relative;
-	width: 240px;
-	height: 200px;
-	float: right;
-	margin: 10px 30px 20px 0;
-}
+	#port2{
+		position: relative;
+		width: 240px;
+		height: 200px;
+		float: right;
+		margin: 10px 30px 20px 0;
+	}
 
-#port3{
-	position: relative;
-	width: 240px;
-	height: 200px;
-	float: left;
-	margin: 10px 20px 20px 0;
-}
+	#port3{
+		position: relative;
+		width: 240px;
+		height: 200px;
+		float: left;
+		margin: 10px 20px 20px 0;
+	}
 	
-#port4 {
-	position: relative;
-	width: 240px;
-	height: 200px;
-	float: right;
-	margin: 10px 30px 10px 0;
-}
+	#port4 {
+		position: relative;
+		width: 240px;
+		height: 200px;
+		float: right;
+		margin: 10px 30px 10px 0;
+	}
 
-#port5 {
-	position: relative;
-	width: 240px;
-	height: 200px;
-	float: left;
-	margin: 10px 20px 10px 0;
-}
+	#port5 {
+		position: relative;
+		width: 240px;
+		height: 200px;
+		float: left;
+		margin: 10px 20px 10px 0;
+	}
 
-.myText {
-	position: absolute;
-	color: white;
-	text-align: center;
-	font-size: 20px;
-	bottom: 0;
-	width: 280px;
-	line-height: 20px;
-	margin:  0 0 10px 0;
-	background-color: #4aaaa5;
-}
+	.myText {
+		position: absolute;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		bottom: 0;
+		width: 280px;
+		line-height: 20px;
+		margin:  0 0 10px 0;
+		background-color: #4aaaa5;
+	}
 
-footer{
-	text-align: center;
-}
+	footer{
+		text-align: center;
+	}
 }
 
 
@@ -384,12 +388,16 @@ footer{
 		margin: 0;
 	}
 
+	.wrapper {
+		width: 650px;
+	}
+
 	header nav {
 		width:100%;
 		text-align: center;
 		margin: 0 20px;
 		padding: 0 50px; 
-		}
+	}
 
 	
 
@@ -406,7 +414,7 @@ footer{
 	}
 
 	.connect {
-		margin: 20px 20px 100px 20px;
+		margin: 20px;
 		width:100%;
 
 	}
@@ -416,7 +424,7 @@ footer{
 		width:550px;
 		height: 200px;
 		margin: 20px;
-		}
+	}
 
 	#myText {
 		width:550px;
@@ -425,7 +433,7 @@ footer{
 	.main {
 		width: 100%;
 		margin: 20px;
-		}
+	}
 	form {
 		margin-right: 20px;
 	}
